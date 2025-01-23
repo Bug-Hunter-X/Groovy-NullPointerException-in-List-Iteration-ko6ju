@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Groovy when dealing with Lists and null values.  The `myMethod` function attempts to iterate over a List, but if a null List is passed, it results in a `NullPointerException`. The solution shows how to safely handle null input using the Groovy elvis operator or a null check.
